@@ -1,0 +1,5 @@
+Calculate _discount function takes two arguments: price (the original price of the item) and discount_percent (the discount percentage to be applied).It checks if the discount_percent is 20% or more. If true, it calculates the discounted price.
+If the discount percentage is less than 20%, it returns the original price without applying any discount.
+input() is used to read user input from the console.float() converts the input (which is a string by default) into a floating-point number to handle prices and percentages that may include decimal points.
+final_price = calculate_discount(price, discount_percent) Calls the calculate_discount function with the values provided by the user and stores the result in the final_price variable.
+print(f"The final price after applying the discount is: ${final_price:.2f}") Uses an f-string to format the final_price to two decimal places and includes a dollar sign for currency representation.:.2f ensures that the number is formatted with two decimal places, making the output look like standard currency.
